@@ -1,0 +1,31 @@
+
+.menu-fixo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #111;
+  padding: 10px 0;
+  z-index: 1000;
+}
+.menu-fixo ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu-fixo li {
+  display: inline;
+  margin: 0 15px;
+}
+.menu-fixo a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+body {
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
