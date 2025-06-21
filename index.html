@@ -1,39 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <title>Página inicial do AmadorReal - AmadorReal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AmadorReal - Conteúdo 100% Amador</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: sans-serif; background-color: #111; color: #eee; padding: 20px; }
+    h1 { color: #f26; }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>AmadorReal</h1>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="videos/amadoras.html">Amadoras</a>
-      <a href="videos/casais.html">Casais</a>
-      <a href="videos/brasileiras.html">Brasileiras</a>
-      <a href="videos/novinhas.html">Novinhas</a>
-      <a href="videos/caseiros.html">Caseiros</a>
-      <a href="videos/reais.html">Reais</a>
-    </nav>
-  </header>
-  <main>
-    <h2>Bem-vindo ao AmadorReal</h2>
-    <p>Conteúdo 100% amador, com vídeos reais selecionados para seu prazer.</p>
-    <ul>
-      <li><a href="videos/amadoras.html">Ver Amadoras</a></li>
-      <li><a href="videos/casais.html">Ver Casais</a></li>
-      <li><a href="videos/brasileiras.html">Ver Brasileiras</a></li>
-      <li><a href="videos/novinhas.html">Ver Novinhas</a></li>
-      <li><a href="videos/caseiros.html">Ver Caseiros</a></li>
-      <li><a href="videos/reais.html">Ver Reais</a></li>
-    </ul>
-  </main>
-  <footer>
-    <p>&copy; 2025 AmadorReal. Todos os direitos reservados.</p>
-  </footer>
+<nav style="background-color: #111; padding: 10px;">
+  <ul style="list-style: none; display: flex; gap: 20px; align-items: center; color: white; margin: 0;">
+    <li><a href="index.html" style="color: white; text-decoration: none;">Início</a></li>
+    <li><a href="categorias.html" style="color: white; text-decoration: none;">Categorias</a></li>
+    <li style="position: relative;">
+      <span style="cursor: pointer;">Atrizes ▾</span>
+      <ul style="position: absolute; background-color: #222; padding: 10px; display: none; list-style: none; top: 20px; left: 0;">
+        <li><a href="blondie_fesser.html" style="color: white; text-decoration: none;">Blondie Fesser</a></li>
+        <li><a href="crystal_lust.html" style="color: white; text-decoration: none;">Crystal Lust</a></li>
+        <li><a href="gracie_bon.html" style="color: white; text-decoration: none;">Gracie Bon</a></li>
+        <li><a href="lala_koi.html" style="color: white; text-decoration: none;">Lala Koi</a></li>
+        <li><a href="sazondepuertorico.html" style="color: white; text-decoration: none;">SazonDePuertoRico</a></li>
+        <li><a href="ameliasocurvy.html" style="color: white; text-decoration: none;">AmeliaSoCurvy</a></li>
+        <li><a href="lissa_aires.html" style="color: white; text-decoration: none;">Lissa Aires</a></li>
+      </ul>
+    </li>
+    <li><a href="sobre.html" style="color: white; text-decoration: none;">Sobre</a></li>
+    <li><a href="contato.html" style="color: white; text-decoration: none;">Contato</a></li>
+  </ul>
+</nav>
+
+<script>
+  const menuItem = document.querySelector('nav li:nth-child(3)');
+  const submenu = menuItem.querySelector('ul');
+  menuItem.addEventListener('mouseenter', () => submenu.style.display = 'block');
+  menuItem.addEventListener('mouseleave', () => submenu.style.display = 'none');
+</script>
+
+<h1>Página inicial do AmadorReal</h1>
+<p>Conteúdo em breve...</p>
 </body>
 </html>
